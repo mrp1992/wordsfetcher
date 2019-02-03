@@ -1,0 +1,37 @@
+{
+  "name": "wordsfetcher",
+  "version": "1.0.0",
+  "description": "To fetch all the words from a given list when a given string is present in them",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrp1992/wordsfetcher.git"
+  },
+  "keywords": [
+    "wordFetcher"
+  ],
+  "author": "Mohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrp1992/wordsfetcher/issues"
+  },
+  "homepage": "https://github.com/mrp1992/wordsfetcher#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "read-yaml": "^1.1.0",
+    "yml": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^24.0.0",
+    "jest-express": "^1.10.0",
+    "superagent": "^4.1.0",
+    "supertest": "^3.4.2"
+  }
+}
